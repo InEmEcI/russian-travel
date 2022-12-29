@@ -1,9 +1,9 @@
 .header {
-  max-width: 1184px;
+  max-width: 1280px;
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  margin: 28px auto 0 auto;
+  margin-top: 28px;
+  padding: 0 48px 0 48px;
   font-family: 'Inter', Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -12,22 +12,16 @@
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
-  .header {
-    padding-left: 48px;
-    padding-right: 48px;
-  }
-}
-
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
   .header {
     padding-left: 24px;
     padding-right: 24px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 321px) {
   .header {
+    margin: 0;
     padding: 16px 16px 0 16px;
   }
 }
